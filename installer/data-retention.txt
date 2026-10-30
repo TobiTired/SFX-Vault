@@ -1,0 +1,9 @@
+Your sound library catalog, metadata and preferences are retained.
+
+SFX Vault stores its catalog.sqlite3 database, settings, metadata and update backups
+under %LOCALAPPDATA%\SFX Vault, outside the installation directory.
+The separate Update Test edition uses %LOCALAPPDATA%\SFX Vault Update Test.
+
+Installing, upgrading or uninstalling the application does not delete these folders.
+Source audio remains in its original locations and is never managed by the installer.
+To remove user data later, back it up and explicitly remove the data folder yourself.

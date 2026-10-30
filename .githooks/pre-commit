@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+if [ -x .venv/Scripts/python.exe ]; then
+  exec .venv/Scripts/python.exe tools/privacy_check.py --staged --identity
+fi
+exec python tools/privacy_check.py --staged --identity

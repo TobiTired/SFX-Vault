@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+echo "Pushes are disabled pending explicit publication approval." >&2
+exit 1

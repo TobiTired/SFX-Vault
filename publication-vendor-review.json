@@ -1,0 +1,303 @@
+{
+  "files": {
+    "app/SFX Vault/_internal/base_library.zip": {
+      "sha256": "9aee5ba153dd8df3610445f81b2fe57014a53e288a316bb0a44411999a4c3169",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Bundled CPython standard-library archive; path hit is the verified ntpath splitroot documentation example; individual archive entry bytes match all three builds, ZIP timestamps may differ",
+      "payload_sha256": "8554416a46cc3d665153cf56f4f825796f434f9c4d1518349a08bf952eb44e4d"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/generic/qtuiotouchplugin.dll": {
+      "sha256": "8565656807db29cfb6170e6803181f24e0bed3aa1b14684d29694e375cc5ee96",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/iconengines/qsvgicon.dll": {
+      "sha256": "f9e21af351bd5d5629bc00e8e3796b552eca92d1a9645438c865b9c53af1714f",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qgif.dll": {
+      "sha256": "77782de4aa4f7b75a7cc4d3f24aee49da935c312ea13d25f4cda3a98d180145c",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qicns.dll": {
+      "sha256": "93e2e588cd1036af3c6300b539d648b3825625788e59a3f0f1863d9901c9759f",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qico.dll": {
+      "sha256": "a0e4d0d0319e075f6cc5f774084bf390f7af83600f38685c6bc9c407681cc22c",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qjpeg.dll": {
+      "sha256": "dd42bdcd229744a9515db82ba9a802c74b6589cc508c3e85fb30f06ba24b9da6",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qpdf.dll": {
+      "sha256": "0625e11f7ed136d4556cdc248527f26ac23eca93fa77764e9b64535557613efc",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qsvg.dll": {
+      "sha256": "b63f97ed0ae60aa5bc332c37e429c1f31154e1eee358352b2c49598c5269843b",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qtga.dll": {
+      "sha256": "ce95aa019d940533341b4f08a10ddd3b0393162678c47904251da77aeadfd34e",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qtiff.dll": {
+      "sha256": "ce696a2dd2e57b8852f7d01834725f54a4d0be66c3d2c491df60fd907fece907",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qwbmp.dll": {
+      "sha256": "e118243bd3528aa5fe6378a8839abe0efc200e891af06ee369b97b2ff239b89c",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/imageformats/qwebp.dll": {
+      "sha256": "02ae5555b688f78aade5cedcd66c646b73d519460c008c23e75ad408bd152668",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/multimedia/ffmpegmediaplugin.dll": {
+      "sha256": "a29ceb3a6ce93b85e02e19133eb5f34d9588d29eb46d3e80458bd7c693bc492e",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/multimedia/windowsmediaplugin.dll": {
+      "sha256": "74c91f3b38ce3fe31e0bce53f6032cb54607431f878eeb18e1c8463e41785f2f",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll": {
+      "sha256": "2bd047476183c76004221fb44adb7ada9b4b6ce5c2929d63ff67a5305b430f1a",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll": {
+      "sha256": "bbf479e6380061699e734a32f4fe0b6fc8bc2de007ae53b0206e6e36abf1e3e2",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/platforms/qdirect2d.dll": {
+      "sha256": "18213464be5a5a1d39af6a2c876ce21a6bb6a634c814651d09f0ef7e4719edc2",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/platforms/qminimal.dll": {
+      "sha256": "c9025bc5f4653c5aadac87f06ab391763e82adf792f6759c6027a78a5efcaf5c",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/platforms/qoffscreen.dll": {
+      "sha256": "d24ef380ab0882d39f21539dcf57ab4213875a6fc658a53012f2d2fd275c6f69",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/platforms/qwindows.dll": {
+      "sha256": "ddd5cf6a96f058cfafcbc901ddeb5df010d755f0716beacfb557f8b27b733afe",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll": {
+      "sha256": "74d4c47b56a942afb3723bb105900501bb8f91a46a8b592fa722cc4fdb2ce9bf",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/tls/qcertonlybackend.dll": {
+      "sha256": "87574d467b6f9640a15e37bf4183179c6a7cefc4dc84346b8f4cffb989cf1e12",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/tls/qopensslbackend.dll": {
+      "sha256": "94b3492bc4087da2818e2749a5a03f7d810611b2e3648bd8d580ad087363046f",
+      "findings": [
+        "embedded credential/private key",
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/plugins/tls/qschannelbackend.dll": {
+      "sha256": "2915a86a2531e65fd4905f0cc1c8dc353772a4f52aeda5100725dd9249db54d1",
+      "findings": [
+        "embedded credential/private key",
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Core.dll": {
+      "sha256": "f57ed38afd95d0306cca9d88d997f639f70c7628a4f1f064eae291d579487121",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Gui.dll": {
+      "sha256": "abd20026e190e8cc69667d1bea042db05cd353cc05e7da74b063c20b7da3f6cd",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Multimedia.dll": {
+      "sha256": "7629a499b204fcc71a96e12c7180b0a8a920d05ee2f2b20bbec1a819610a69b0",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6MultimediaWidgets.dll": {
+      "sha256": "b43e76d5d6b99e0134a8bd6bd581a7935a8b9bae45b1c39cd93d0ca7a46cce85",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Network.dll": {
+      "sha256": "1c7c393b264ae78f4dee211656377a086c4be714bf768d3135f94f11c1d0be61",
+      "findings": [
+        "embedded credential/private key",
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6OpenGL.dll": {
+      "sha256": "788b743bfaca141ca83e28c161646d51de92a71adf7a86c653c36fdea5a9bf5b",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Pdf.dll": {
+      "sha256": "5caf5744e017df85455c5c7e11028c5ec2765633a7ca64a11d7b64d127f6c4cc",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Qml.dll": {
+      "sha256": "0be9fc8ad3b7d2d19d0ed49a9026f02b78c4498ab2f53ca574d34a0740d7888a",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6QmlMeta.dll": {
+      "sha256": "6edac38b27868e69c8ae15b08145688b02358426d5d652a0d2865ca4476fde0a",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6QmlModels.dll": {
+      "sha256": "78e79eee241326da0754e29f4b372dee9ff7b75f3484099504c4750ac1f519e6",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6QmlWorkerScript.dll": {
+      "sha256": "475456ab8f1e9570f5f5f496b0941445a34fca4bbac0dd07ea84ee5ea15e7194",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Quick.dll": {
+      "sha256": "3c93688f36ad4e5c5c2fd73587f50ee94e1dfa4891805bbe5d6d0c031450faa2",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Svg.dll": {
+      "sha256": "8f1de5b28aab1eedb415c751c81f9cfaa2804242868c0ceea5f3fdb4b2babca4",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6VirtualKeyboard.dll": {
+      "sha256": "973369caa6d13fa08f6b1cd57004dcf4f137f8ef98ec6876ad07ba690ee0b9a3",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/PySide6/Qt6Widgets.dll": {
+      "sha256": "2f62cbe2869fff4e20df7369c2786e1ec7ec290d5a63d1371b7f70cf06909c3f",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact PySide6 wheel RECORD digest; vendor build-path/parser-marker strings; no private-key body"
+    },
+    "app/SFX Vault/_internal/python312.dll": {
+      "sha256": "e7890e38256f04ee0b55ac5276bbf3ac61392c3a3ce150bb5497b709803e17ce",
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact installed CPython runtime; standard documentation example"
+    }
+  },
+  "code_strings": {
+    "ntpath.pyc:22b6547d11d1b53f8279a182153db0d4c2ec210e6c340d1621eeea58bfb5edd6": {
+      "findings": [
+        "embedded developer home path"
+      ],
+      "classification": "Exact CPython ntpath splitroot docstring"
+    }
+  }
+}
